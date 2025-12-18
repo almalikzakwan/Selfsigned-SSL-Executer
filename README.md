@@ -1,4 +1,4 @@
-# Self signed SSL  
+# Self signed SSL Certificate
 
 ## Description    
 Self-signed ssl certificate with SAN tools.  
