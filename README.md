@@ -1,21 +1,26 @@
 # Self signed SSL  
 
-## description  
-This code is using batch scripting. This project created because i think it usefull if user need to generate multiple ssl self-signed certificate for many project in development and also for my future references.
+## Description    
+Self-signed ssl certificate with SAN tools.  
+  
+Command and step i'm refereing into below snippet.
 
-## tools
+[How to create a self-signed SSL Certificate with SubjectAltName(SAN)](https://gist.github.com/KeithYeh/bb07cadd23645a6a62509b1ec8986bbc)
+
+## Tools
 windows
+bash  
 openssl 
 
-## guide
+## Guide
 ```bash
 git clone https://<username>:<token>@github.com/almalikzakwan/selfsigned-ssl-executer.git
 cd selfsigned-ssl-executer.git
 runas /<user>:Administrator run.bat
 ```
 
-## info  
+## Info  
 Please always run run.bat in administrator mode. 
 
-## license
+## License
 This project is under MIT License.
