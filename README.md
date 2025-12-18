@@ -13,9 +13,11 @@ bash
 openssl 
 
 ## Guide
+Install openssl to use openssl in windows. installer can be found below,  
+[openssl windows installer](https://slproweb.com/products/Win32OpenSSL.html)
 ```bash
 git clone https://<username>:<token>@github.com/almalikzakwan/selfsigned-ssl-executer.git
-cd selfsigned-ssl-executer.git
+cd selfsigned-ssl-executer
 runas /<user>:Administrator run.bat
 ```
 
