@@ -1,7 +1,8 @@
 # Self signed SSL Certificate
 
 ## Description    
-Self-signed ssl certificate with SAN tools.  
+Self-signed ssl certificate with SAN tools. Simple automation to tool to create self-signed SSL certificate. Enter your domain name and pass phrase and enjoy!.  
+This tools is using Command Line Interface. 
   
 Command and step i'm refereing into below snippet.
 
