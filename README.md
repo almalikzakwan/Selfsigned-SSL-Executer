@@ -25,6 +25,7 @@ runas /<user>:Administrator run.bat
 
 ## Info  
 Please always run run.bat in administrator mode. 
+Before you run the execution, please create a outputs folder.
 
 ## License
 This project is under MIT License.

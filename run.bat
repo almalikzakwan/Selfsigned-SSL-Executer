@@ -17,6 +17,7 @@ exit /b
 :main
 SET /P domain="Please enter your domain name (example.com): "
 SET /P password="Enter pass phrase for %domain% (min 5 character): "
+cd outputs
 START /B /W openssl genrsa -des3 -passout pass:%password% -out %domain%.key 2048
 START /B /W openssl req -new -key %domain%.key -passin pass:%password% -out %domain%.csr
 COPY %domain%.key %domain%.key.org
