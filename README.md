@@ -1,11 +1,11 @@
 # Self signed SSL Certificate
 
-## Description    
+## Description
 Self-signed ssl certificate with SAN tools. Simple automation to tool to create self-signed SSL certificate. Enter your domain name and pass phrase and enjoy!.  
 
 This tools is using Command Line Interface. 
   
-Command and step i'm refereing into below snippet.
+Command and step i'm referring into below snippet.
 
 [How to create a self-signed SSL Certificate with SubjectAltName(SAN)](https://gist.github.com/KeithYeh/bb07cadd23645a6a62509b1ec8986bbc)
 
@@ -25,7 +25,8 @@ runas /<user>:Administrator run.bat
 
 ## Info  
 Please always run run.bat in administrator mode. 
-Before you run the execution, please create a outputs folder.
+This software built only for my learning in batch scripting.  
 
+Before you run the execution, please create a outputs folder.  
 ## License
 This project is under MIT License.
