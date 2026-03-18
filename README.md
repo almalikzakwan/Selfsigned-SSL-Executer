@@ -28,5 +28,5 @@ Please always run run.bat in administrator mode.
 This software built only for my learning in batch scripting.  
 
 Before you run the execution, please create a outputs folder.  
-## License
+## License 
 This project is under MIT License.
