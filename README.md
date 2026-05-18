@@ -23,6 +23,8 @@ cd selfsigned-ssl-executer
 runas /<user>:Administrator run.bat
 ```
 
+Note: Common name must be same with your domain.name
+
 ## Info  
 Please always run run.bat in administrator mode. 
 This software built only for my learning in batch scripting.  
