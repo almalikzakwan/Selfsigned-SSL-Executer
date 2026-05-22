@@ -18,4 +18,4 @@ openssl x509 -req -extfile <(printf "subjectAltName=DNS:$domainName") -in $domai
 sudo cp $domainName.crt /usr/local/share/ca-certificates/
 sudo update-ca-certificates
 
-echo "Self signed SSL create successfully"
+echo "Self signed SSL created successfully"
